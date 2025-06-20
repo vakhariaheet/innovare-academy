@@ -114,7 +114,7 @@ const Contact = () => {
           fullName: formData.name,
           email: formData.email,
           phone: formData.phone,
-          courses: formData.courses,
+          course: formData.courses,
           trainingMode: formData.trainingMode,
           message: formData.message ?? 'N/A'
         }
