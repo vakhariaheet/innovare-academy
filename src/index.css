@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* FAQ Animation */
+.faq-answer {
+  transition-property: max-height, opacity;
+}
+
+/* Remove double border between FAQ items */
+.faq-open {
+  border-color: #14b8a6 !important; /* teal-500 */
+}
