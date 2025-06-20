@@ -111,7 +111,7 @@ const Contact = () => {
       },
       body: JSON.stringify({
         fields: {
-          name: formData.name,
+          fullName: formData.name,
           email: formData.email,
           phone: formData.phone,
           courses: formData.courses,
